@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+header{
+
+    background-color: black;
+   padding-top:5px ;
+   box-shadow: 0 5px black;
+     padding-bottom:8px;
+
+
+
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    
+    float: left;
+    
+}
+.logo img{
+    width: 100%;
+
+}
+.menu{
+    width: 70%;
+    
+    float: right;
+    margin-top: 48px;
+    
+
+}
+.menu ul{
+    float: right;
+
+
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+    text-transform: uppercase;
+
+}
+.menu ul li a:hover{
+    color: blue;
+
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+
+}
+
+
